@@ -1,0 +1,4 @@
+<launch>
+    <node name="sub_node" pkg="udp_test" type="udp_node" output="screen" />
+    <node name="pub_node" pkg="udp_test" type="udp_pub_node" output="screen" />
+</launch>

@@ -1,0 +1,19 @@
+<package format="2">
+  <name>udp_test</name>
+  <version>0.0.1</version>
+  <description>
+      udp subscribe test
+  </description>
+  <license>MIT</license>
+  <author email="randoms@bwbot.org">Randoms</author>
+  <maintainer email="randoms@bwbot.org">Randoms</maintainer>
+  <url type="website">http://github.com/bluewhalerobot/udp_test</url>
+  <url type="bugtracker">https://github.com/bluewhalerobot/udp_test/issues</url>
+  <url type="repository">https://github.com/bluewhalerobot/udp_test</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <depend>message_generation</depend>
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+</package>
